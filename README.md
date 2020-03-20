@@ -1,2 +1,2 @@
-# arraytest
-Test einer Methode zur Arrayverwaltung
+# buffertest
+Test einer Methode zur Bufferverwaltung
