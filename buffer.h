@@ -16,7 +16,6 @@ private:
 
 protected:
     
-public:
 
     struct buffer_t {
         uint64_t		entrytime;
@@ -31,6 +30,9 @@ public:
     void* get_data_ptr(void*);
     Buffer(void);
 
+public:
+
+    
 };
 
 #endif // _BUFFER_H_

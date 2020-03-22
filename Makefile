@@ -33,7 +33,7 @@ endif
 all: buffertest
 
 # Make the rf24hub deamon
-buffertest: buffer.o buffertest.cpp 
+buffertest: buffer.o bufferzahl.o buffertest.cpp 
 	g++ ${CCFLAGS} -Wall $^ -o $@
 
 #rf24test: log.o zahlenformat.o rf24test.cpp

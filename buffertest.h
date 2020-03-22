@@ -2,12 +2,6 @@
 #include <stdint.h>
 #include <stdio.h> 
 #include <iostream>
+#include "bufferzahl.h"
 
-
-
-
-
-struct data_t {
-        int		zahl;
-};
     
